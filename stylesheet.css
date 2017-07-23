@@ -1,0 +1,78 @@
+/* what */
+
+@import url('https://fonts.googleapis.com/css?family=Palanquin:300,700');
+
+body {
+  color:#ddd;
+  background: rgb(22, 22, 22);
+  font-size: 20px;
+  font-family: 'Palanquin', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#wrap {
+  max-width: 700px;
+  min-width: 300px;
+  margin: 2rem auto;
+  padding: 2rem;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background: rgb(25, 25, 25);
+}
+
+header {
+}
+
+h1 {
+  font-size: 220%;
+  margin-top: 0;
+  letter-spacing: 1rem;
+}
+
+h2 {
+  font-size: 150%;
+  margin: 0;
+}
+
+.tiktaalik {
+  float:right;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d4/Tiktaalik_NT_small.jpg');
+  background-position: 20% 95%;
+  margin: 0 0 0 1.5rem;
+  -webkit-box-shadow: 10px 10px 11px 1px rgba(0,0,0,0.81);
+  -moz-box-shadow: 10px 10px 11px 1px rgba(0,0,0,0.81);
+  box-shadow: 10px 10px 11px 1px rgba(0,0,0,0.81);
+}
+
+.tiktaalik a {
+  display: block;
+  text-decoration: none;
+  border: 0;
+  text-align: center;
+  vertical-align: bottom;
+  width: 200px; height: 150px;
+}
+
+.tiktaalik a:hover {
+  border: 0;
+    background: rgba(0, 0, 0, 0.6);;
+  transition: 1s;
+}
+
+footer p {
+  clear: both;
+  text-align: right;
+  color: rgb(66, 66, 66);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px dotted rgb(66, 66, 66);
+}
+
+a:hover {
+  border-bottom: 1px solid rgb(0, 140, 165);
+  background: rgb(45, 45, 45);
+  transition: 1s;
+}
